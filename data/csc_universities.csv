@@ -1,0 +1,250 @@
+agency_code,name,openalex_id,city,province,tags,csc_list_name
+10001,Peking University,I20231570,Beijing,Beijing,985 211 DFC,Peking University
+10002,Renmin University of China,I78988378,Beijing,Beijing,985 211 DFC,Renmin University of China
+10003,Tsinghua University,I99065089,Beijing,Beijing,985 211 DFC,Tsinghua University
+10004,Beijing Jiaotong University,I21193070,Beijing,Beijing,211 DFC,Beijing Jiaotong University
+10005,Beijing University of Technology,I37796252,Beijing,Beijing,211 DFC,Beijing University of Technology
+10006,Beihang University,I82880672,Beijing,Beijing,985 211 DFC,Beihang University
+10007,Beijing Institute of Technology,I125839683,Beijing,Beijing,985 211 DFC,Beijing Institute of Technology
+10008,University of Science and Technology Beijing,I92403157,Beijing,Beijing,211 DFC,University of Science and Technology Beijing
+10010,Beijing University of Chemical Technology,I75390827,Beijing,Beijing,211 DFC,Beijing University of Chemical Technology
+10011,Beijing Technology and Business University,I179026463,Beijing,Beijing,,Beijing Technology and Business University
+10013,Beijing University of Posts and Telecommunications,I139759216,Beijing,Beijing,211 DFC,Beijing University of Posts and Telecommunications
+10019,China Agricultural University,I52158045,Beijing,Beijing,985 211 DFC,China Agricultural Univ CAU
+10022,Beijing Forestry University,I31683504,Beijing,Beijing,211 DFC,Beijing Forestry University
+10026,Beijing University of Chinese Medicine,I17747738,Beijing,Beijing,211 DFC,Beijing University of Chinese Medicine
+10027,Beijing Normal University,I25254941,Beijing,Beijing,985 211 DFC,Beijing Normal University
+10028,Capital Normal University,I96852419,Beijing,Beijing,DFC,Capital Normal University
+10029,Capital University of Physical Education and Sports,I4210162058,Beijing,Beijing,,Capital University of Physical Education and Sports
+10030,Beijing Foreign Studies University,I109173049,Beijing,Beijing,211 DFC,Beijing Foreign Studies University
+10031,Beijing International Studies University,I71459812,Beijing,Beijing,,Beijing International Studies University
+10032,Beijing Language and Culture University,I115212828,Beijing,Beijing,,Beijing Language and Culture University
+10033,Communication University of China,I75689368,Beijing,Beijing,211 DFC,Communication University of China
+10034,Central University of Finance and Economics,I137867983,Beijing,Beijing,211 DFC,Central University of Finance and Economics
+10036,University of International Business and Economics,I146563203,Beijing,Beijing,DFC,University of International Business and Economics
+10038,Capital University of Economics and Business,I90259746,Beijing,Beijing,,Capital University of Economics and Business
+10040,China Foreign Affairs University,I195846302,Beijing,Beijing,DFC,China Foreign Affairs University
+10043,Beijing Sport University,I87710204,Beijing,Beijing,,Beijing Sports University
+10045,Central Conservatory of Music,I2799899675,Beijing,Beijing,211 DFC,Central Conservatory of Music
+10047,Central Academy of Fine Arts,I584858474,Beijing,Beijing,DFC,Central Academy of Fine Arts
+10048,Central Academy of Drama,I2802776907,Beijing,Beijing,DFC,Central Academy of Drama
+10050,Beijing Film Academy,I2802536167,Beijing,Beijing,,Beijing Film Academy
+10052,Minzu University of China,I145897649,Beijing,Beijing,985 211 DFC,Minzu University of China
+10053,China University of Political Science and Law,I177955009,Beijing,Beijing,211 DFC,The China University of Political Science and Law
+10054,North China Electric Power University,I153473198,Beijing,Beijing,211 DFC,North China Electric Power University
+10055,Nankai University,I205237279,Tianjin,Tianjin,985 211 DFC,Nankai University
+10056,Tianjin University,I162868743,Tianjin,Tianjin,985 211 DFC,Tianjin University
+10057,Tianjin University of Science and Technology,I132369690,Tianjin,Tianjin,,Tianjin University of Science and Technology
+10058,Tiangong University,I198091727,Tianjin,Tianjin,DFC,Tianjin Polytechnic University
+10060,Tianjin University of Technology,I136765683,Tianjin,Tianjin,,Tianjin University of Technology
+10062,Tianjin Medical University,I5740404,Tianjin,Tianjin,211 DFC,Tianjin Medical University
+10063,Tianjin University of Traditional Chinese Medicine,I12411659,Tianjin,Tianjin,DFC,Tianjin Univ of Traditional Chinese Medicine
+10065,Tianjin Normal University,I15062923,Tianjin,Tianjin,,Tianjin Normal University
+10066,Tianjin University of Technology and Education,I133270356,Tianjin,Tianjin,,Tianjin University of Technology and Education
+10068,Tianjin Foreign Studies University,I201532990,Tianjin,Tianjin,,Tianjin Foreign Studies University
+10070,Tianjin University of Finance and Economics,I193524592,Tianjin,Tianjin,,Tianjin University of Finance and Economics
+10075,Hebei University,I43337087,Baoding,Hebei,,Hebei University
+10080,Hebei University of Technology,I184843921,Tianjin,Tianjin,211 DFC,Hebei University of Technology
+10108,Shanxi University,I181877577,Taiyuan,Shanxi,DFC,Shanxi University
+10112,Taiyuan University of Technology,I9086337,Taiyuan,Shanxi,211 DFC,Taiyuan University of Technology
+10126,Inner Mongolia University,I2722730,Hohhot,Inner Mongolia,211 DFC,Inner Mongolia University
+10128,Inner Mongolia University of Technology,I55654194,Hohhot,Inner Mongolia,,Inner Mongolia University of Technology
+10129,Inner Mongolia Agricultural University,I120379545,Hohhot,Inner Mongolia,,Inner Mongolia Agricultural University
+10135,Inner Mongolia Normal University,I22046295,Hohhot,Inner Mongolia,,Inner Mongolian Normal University
+10140,Liaoning University,I118803816,Shenyang,Liaoning,211 DFC,Liaoning University
+10141,Dalian University of Technology,I27357992,Dalian,Liaoning,985 211 DFC,Dalian University of Technology
+10143,Shenyang Aerospace University,I125904092,Shenyang,Liaoning,,Shenyang Aerospace University
+10145,Northeastern University,I9224756,Shenyang,Liaoning,985 211 DFC,Northeastern University
+10147,Liaoning Technical University,I176808543,Fuxin,Liaoning,,Liaoning Technical University
+10148,Liaoning Shihua University,I166846921,Fushun,Liaoning,,Liaoning Shihua University
+10150,Dalian Jiaotong University,I7350606,Dalian,Liaoning,,Dalian Jiaotong University
+10151,Dalian Maritime University,I43313876,Dalian,Liaoning,211 DFC,Dalian Maritime University
+10152,Dalian Polytechnic University,I88372448,Dalian,Liaoning,,Dalian Polytechnic University
+10153,Shenyang Jianzhu University,I83714178,Shenyang,Liaoning,,Shenyang Jianzhu University
+10154,Liaoning University of Technology,I2898894,Jinzhou,Liaoning,,Liaoning University of Technology
+10159,China Medical University,I91656880,Shenyang,Liaoning,,China Medical University
+10161,Dalian Medical University,I191996457,Dalian,Liaoning,,Dalian Medical University
+10162,Liaoning University of Traditional Chinese Medicine,I2800959905,Shenyang,Liaoning,,Liaoning University of Traditional Chinese Medicine
+10165,Liaoning Normal University,I153374732,Dalian,Liaoning,,Liaoning Normal University
+10166,Shenyang Normal University,I32399674,Shenyang,Liaoning,,Shenyang Normal University
+10167,Bohai University,I97009856,Jinzhou,Liaoning,,Bohai University
+10172,Dalian University of Foreign Languages,I156292868,Dalian,Liaoning,,Dalian University of Foreign Languages
+10173,Dongbei University of Finance and Economics,I130480701,Dalian,Liaoning,,Dongbei Univ of Finance and Economics
+10183,Jilin University,I194450716,Changchun,Jilin,985 211 DFC,Jilin University
+10184,Yanbian University,I1793135,Yanji,Jilin,211 DFC,Yanbian University
+10186,Changchun University of Science and Technology,I106645853,Changchun,Jilin,,Changchun University of Science and Technology
+10193,Jilin Agricultural University,I4210152006,Changchun,Jilin,,Jilin Agricultural University
+10199,Changchun University of Chinese Medicine,I4210128075,Changchun,Jilin,,Changchun University of Chinese Medicine
+10200,Northeast Normal University,I184983240,Changchun,Jilin,211 DFC,Northeast Normal University
+10201,Beihua University,I121691239,Jilin,Jilin,,Beihua University
+10203,Jilin Normal University,I149240348,Siping,Jilin,,Jilin Normal University
+10210,Heilongjiang University,I55022517,Harbin,Heilongjiang,,Heilongjiang University
+10213,Harbin Institute of Technology,I204983213,Harbin,Heilongjiang,985 211 DFC,Harbin Institute of Technology
+10214,Harbin University of Science and Technology,I100188998,Harbin,Heilongjiang,,Harbin University of Science and Technology
+10216,Yanshan University,I39333907,Qinhuangdao,Hebei,,Yanshan University
+10217,Harbin Engineering University,I151727225,Harbin,Heilongjiang,211 DFC,Harbin Engineering University
+10222,Jiamusi University,I151893264,Jiamusi,Heilongjiang,,Jiamusi University
+10224,Northeast Agricultural University,I169572211,Harbin,Heilongjiang,211 DFC,Northeast Agricultural University
+10225,Northeast Forestry University,I47689461,Harbin,Heilongjiang,211 DFC,Northeast Forestry University
+10226,Harbin Medical University,I156144747,Harbin,Heilongjiang,,Harbin Medical University
+10228,Heilongjiang University of Chinese Medicine,I192327786,Harbin,Heilongjiang,,Heilongjiang University of Chinese Medicine
+10231,Harbin Normal University,I134052481,Harbin,Heilongjiang,,Harbin Normal University
+10233,Mudanjiang Normal University,I4210116828,Mudanjiang,Heilongjiang,,Mudanjiang Normal University
+10246,Fudan University,I24943067,Shanghai,Shanghai,985 211 DFC,Fudan University
+10247,Tongji University,I116953780,Shanghai,Shanghai,985 211 DFC,Tongji University
+10248,Shanghai Jiao Tong University,I183067930,Shanghai,Shanghai,985 211 DFC,Shanghai Jiao Tong University
+10251,East China University of Science and Technology,I143593769,Shanghai,Shanghai,211 DFC,East China University of Science and Technology
+10252,University of Shanghai for Science and Technology,I148128674,Shanghai,Shanghai,,University of Shanghai for Science and Technology
+10255,Donghua University,I181326427,Shanghai,Shanghai,211 DFC,Donghua University
+10264,Shanghai Ocean University,I44675526,Shanghai,Shanghai,DFC,Shanghai Ocean University
+10268,Shanghai University of Traditional Chinese Medicine,I4210098460,Shanghai,Shanghai,,Shanghai University of Traditional Chinese Medicine
+10269,East China Normal University,I66867065,Shanghai,Shanghai,985 211 DFC,East China Normal University
+10270,Shanghai Normal University,I21945476,Shanghai,Shanghai,,Shanghai Normal University
+10271,Shanghai International Studies University,I11406153,Shanghai,Shanghai,211 DFC,Shanghai International Studies University
+10272,Shanghai University of Finance and Economics,I181679659,Shanghai,Shanghai,211 DFC,Shanghai University of Finance and Economics
+10276,East China University of Political Science and Law,I78974044,Shanghai,Shanghai,,East China University of Political Science and Law
+10277,Shanghai University of Sport,I18925743,Shanghai,Shanghai,DFC,Shanghai University of Sports
+10278,Shanghai Conservatory of Music,I350617331,Shanghai,Shanghai,DFC,Shanghai Conservatory of Music
+10280,Shanghai University,I113940042,Shanghai,Shanghai,211 DFC,Shanghai University
+10284,Nanjing University,I881766915,Nanjing,Jiangsu,985 211 DFC,Nanjing University
+10285,Soochow University,I3923682,Suzhou,Jiangsu,211 DFC,Soochow University
+10286,Southeast University,I76569877,Nanjing,Jiangsu,985 211 DFC,Southeast University
+10287,Nanjing University of Aeronautics and Astronautics,I9842412,Nanjing,Jiangsu,DFC,Nanjing University of Aeronautics and Astronautics
+10288,Nanjing University of Science and Technology,I36399199,Nanjing,Jiangsu,211 DFC,Nanjing University of Science and Technology
+10289,Jiangsu University of Science and Technology,I4210096899,Zhenjiang,Jiangsu,,Jiangsu University of Science and Technology
+10290,China University of Mining and Technology,I25757504,Xuzhou,Jiangsu,211 DFC,China Univ of Mining and Technology
+10294,Hohai University,I163340411,Nanjing,Jiangsu,211 DFC,Hohai University
+10295,Jiangnan University,I111599522,Wuxi,Jiangsu,211 DFC,Jiangnan University
+10299,Jiangsu University,I115592961,Zhenjiang,Jiangsu,,Jiangsu University
+10300,Nanjing University of Information Science and Technology,I200845125,Nanjing,Jiangsu,DFC,Nanjing University of Information Science and Technology
+10307,Nanjing Agricultural University,I119454577,Nanjing,Jiangsu,211 DFC,Nanjing Agricultural University
+10315,Nanjing University of Chinese Medicine,I131434179,Nanjing,Jiangsu,DFC,Nanjing University of Chinese Medicine
+10316,China Pharmaceutical University,I161716053,Nanjing,Jiangsu,211 DFC,China Pharmaceutical University
+10319,Nanjing Normal University,I152031979,Nanjing,Jiangsu,211 DFC,Nanjing Normal University
+10331,Nanjing University of the Arts,I4210138978,Nanjing,Jiangsu,,Nanjing University of the Arts
+10335,Zhejiang University,I76130692,Hangzhou,Zhejiang,985 211 DFC,Zhejiang University
+10337,Zhejiang University of Technology,I55712492,Hangzhou,Zhejiang,,Zhejiang University of Technology
+10338,Zhejiang Sci-Tech University,I1328775524,Hangzhou,Zhejiang,,Zhejiang Sci-Tech University
+10343,Wenzhou Medical University,I27781120,Wenzhou,Zhejiang,,Wenzhou Medical College
+10345,Zhejiang Normal University,I135237710,Jinhua,Zhejiang,,Zhejiang Normal University
+10346,Hangzhou Normal University,I163151501,Hangzhou,Zhejiang,,Hangzhou Normal University
+10351,Wenzhou University,I146620803,Wenzhou,Zhejiang,,Wenzhou University
+10353,Zhejiang Gongshang University,I75059550,Hangzhou,Zhejiang,,Zhejiang Gongshang University
+10355,China Academy of Art,I231293419,Hangzhou,Zhejiang,DFC,China Academy of Art
+10357,Anhui University,I143868143,Hefei,Anhui,211 DFC,Anhui University
+10358,University of Science and Technology of China,I126520041,Hefei,Anhui,985 211 DFC,University of Science and Technology of China
+10359,Hefei University of Technology,I16365422,Hefei,Anhui,211 DFC,Hefei University of Technology
+10364,Anhui Agricultural University,I140221134,Hefei,Anhui,,Anhui Agricultural University
+10366,Anhui Medical University,I197869895,Hefei,Anhui,,Anhui Medical University
+10370,Anhui Normal University,I4472751,Wuhu,Anhui,,Anhui Normal University
+10375,Huangshan University,I3132008074,Huangshan City,Anhui,,Huangshan University
+10384,Xiamen University,I191208505,Xiamen,Fujian,985 211 DFC,Xiamen University
+10386,Fuzhou University,I80947539,Fuzhou,Fujian,211 DFC,Fuzhou University
+10388,Fujian University of Technology,I83791580,Fuzhou,Fujian,,Fujian University of Technology
+10389,Fujian Agriculture and Forestry University,I61057504,Fuzhou,Fujian,,Fujian Agriculture and Forestry University
+10392,Fujian Medical University,I129708740,Fuzhou,Fujian,,Fujian Medical University
+10394,Fujian Normal University,I111753288,Fuzhou,Fujian,,Fujian Normal University
+10403,Nanchang University,I141649914,Nanchang,Jiangxi,211 DFC,Nanchang University
+10408,Jingdezhen Ceramic Institute,I105991555,Jingdezhen,Jiangxi,,Jingdezhen Ceramic Institute
+10410,Jiangxi Agricultural University,I74837319,Nanchang,Jiangxi,,Jiangxi Agricultural University
+10412,Jiangxi University of Traditional Chinese Medicine,I10899854,Nanchang,Jiangxi,,Jiangxi University of Traditional Chinese Medicine
+10414,Jiangxi Normal University,I53592917,Nanchang,Jiangxi,,Jiangxi Normal University
+10418,Gannan Normal University,I4210119042,Ganzhou,Jiangxi,,Gannan Normal University
+10421,Jiangxi University of Finance and Economics,I59649739,Nanchang,Jiangxi,,Jiangxi University of Finance and Economics
+10422,Shandong University,I154099455,Jinan,Shandong,985 211 DFC,Shandong University
+10423,Ocean University of China,I59028903,Qingdao,Shandong,985 211 DFC,Ocean University of China
+10424,Shandong University of Science and Technology,I80143920,Qingdao,Shandong,,Shandong University of Science and Technology
+10426,Qingdao University of Science and Technology,I143413998,Qingdao,Shandong,,Qingdao University of Science and Technology
+10427,University of Jinan,I34949971,Jinan,Shandong,,University of Jinan
+10433,Shandong University of Technology,I119203015,Zibo,Shandong,,Shandong University of Technology
+10445,Shandong Normal University,I28006308,Jinan,Shandong,,Shandong Normal University
+10451,Ludong University,I182707071,Yantai,Shandong,,Ludong University
+10459,Zhengzhou University,I38877650,Zhengzhou,Henan,211 DFC,Zhengzhou University
+10463,Henan University of Technology,I36152291,Zhengzhou,Henan,,Henan University of Technology
+10471,Henan University of Chinese Medicine,I160354188,Zhengzhou,Henan,,Henan University of Traditional Chinese Medicine
+10475,Henan University,I173899330,Kaifeng,Henan,DFC,Henan University
+10486,Wuhan University,I37461747,Wuhan,Hubei,985 211 DFC,Wuhan University
+10487,Huazhong University of Science and Technology,I47720641,Wuhan,Hubei,985 211 DFC,Huazhong University of Science and Technology
+10489,Yangtze University,I177739611,Jingzhou,Hubei,,Yangtze University
+10491,China University of Geosciences,I3124059619,Wuhan,Hubei,211 DFC,China University of Geoscience (Wuhan)
+10495,Wuhan Textile University,I4210119942,Wuhan,Hubei,,Wuhan Textile University
+10497,Wuhan University of Technology,I196699116,Wuhan,Hubei,211 DFC,Wuhan University of Technology
+10504,Huazhong Agricultural University,I204823248,Wuhan,Hubei,211 DFC,Huazhong Agricultural University
+10511,Central China Normal University,I40963666,Wuhan,Hubei,211 DFC,Central China Normal University
+10512,Hubei University,I75900474,Wuhan,Hubei,,Hubei University
+10520,Zhongnan University of Economics and Law,I158934434,Wuhan,Hubei,211 DFC,Zhongnan University of Economics and Law
+10530,Xiangtan University,I4610292,Xiangtan,Hunan,DFC,Xiangtan University
+10532,Hunan University,I16609230,Changsha,Hunan,985 211 DFC,Hunan University
+10533,Central South University,I139660479,Changsha,Hunan,985 211 DFC,Central South University
+10536,Changsha University of Science and Technology,I56934997,Changsha,Hunan,,Changsha University of Science and Technology
+10542,Hunan Normal University,I173759888,Changsha,Hunan,211 DFC,Hunan Normal University
+10558,Sun Yat-sen University,I157773358,Guangzhou,Guangdong,985 211 DFC,Sun Yat-Sen University
+10560,Shantou University,I32574673,Shantou,Guangdong,,Shantou University
+10561,South China University of Technology,I90610280,Guangzhou,Guangdong,985 211 DFC,South China University of Technology
+10564,South China Agricultural University,I101479585,Guangzhou,Guangdong,DFC,South China Agricultural University
+10570,Guangzhou Medical University,I92039509,Guangzhou,Guangdong,DFC,Guangzhou Medical University
+10572,Guangzhou University of Chinese Medicine,I117532281,Guangzhou,Guangdong,DFC,Guangzhou University of Chinese Medicine
+10574,South China Normal University,I187400657,Guangzhou,Guangdong,211 DFC,South China Normal University
+10578,Anshan Normal University,I41147446,Anshan,Liaoning,,Anshan Normal University
+10589,Hainan University,I20942203,Haikou,Hainan,211 DFC,Hainan University
+10593,Guangxi University,I150807315,Nanning,Guangxi,211 DFC,Guangxi University
+10595,Guilin University of Electronic Technology,I5343935,Guilin,Guangxi,,Guilin University of Electronic Technology
+10598,Guangxi Medical University,I160354086,Nanning,Guangxi,,Guangxi Medical University
+10602,Guangxi Normal University,I29739308,Guilin,Guangxi,,Guangxi Normal University
+10603,Nanning Normal University,I4210151929,Nanning,Guangxi,,Guangxi Teachers Education University
+10608,Guangxi Minzu University,I167274908,Nanning,Guangxi,,Guangxi University for Nationalities
+10610,Sichuan University,I24185976,Chengdu,Sichuan,985 211 DFC,Sichuan University
+10611,Chongqing University,I158842170,Chongqing,Chongqing,985 211 DFC,Chongqing University
+10613,Southwest Jiaotong University,I4800084,Chengdu,Sichuan,211 DFC,Southwest Jiaotong University
+10614,University of Electronic Science and Technology of China,I150229711,Chengdu,Sichuan,985 211 DFC,University of Electronic Science and Technology of China
+10617,Chongqing University of Posts and Telecommunications,I10535382,Chongqing,Chongqing,,Chongqing University of Post and Telecommunications
+10618,Chongqing Jiaotong University,I63371133,Chongqing,Chongqing,,Chongqing Jiaotong University
+10633,Chengdu University of Traditional Chinese Medicine,I53411278,Chengdu,Sichuan,DFC,Chengdu University of Traditional Chinese Medicine
+10635,Southwest University,I142108993,Chongqing,Chongqing,211 DFC,Southwest University
+10650,Sichuan International Studies University,I319874951,Chongqing,Chongqing,,Sichuan International Studies University
+10651,Southwestern University of Finance and Economics,I204831749,Chengdu,Sichuan,211 DFC,Southwestern University of Finance and Economics
+10657,Guizhou University,I178232147,Guiyang,Guizhou,211 DFC,Guizhou University
+10663,Guizhou Normal University,I154893126,Guiyang,Guizhou,,Guizhou Normal University
+10672,Guizhou Minzu University,I4210095439,Guiyang,Guizhou,,Guizhou Minzu University
+10673,Yunnan University,I189210763,Kunming,Yunnan,211 DFC,Yunnan University
+10674,Kunming University of Science and Technology,I10660446,Kunming,Yunnan,,Kunming University of Science and Technology
+10676,Yunnan Agricultural University,I195019228,Kunming,Yunnan,,Yunnan Agricultural University
+10678,Kunming Medical University,I26080491,Kunming,Yunnan,,Kunming Medical University
+10681,Yunnan Normal University,I120825670,Kunming,Yunnan,,Yunnan Normal University
+10689,Yunnan University of Finance And Economics,I49185572,Kunming,Yunnan,,Yunnan University of Finance and Economics
+10697,Northwest University,I37802460,Xi'an,Shaanxi,211 DFC,Northwest University
+10698,Xi'an Jiaotong University,I87445476,Xi'an,Shaanxi,985 211 DFC,Xi’an Jiaotong University
+10699,Northwestern Polytechnical University,I17145004,Xi'an,Shaanxi,985 211 DFC,NORTHWESTERN PLOY-TECHNICAL UNIVERSITY
+10701,Xidian University,I149594827,Xi'an,Shaanxi,211 DFC,Xidian University
+10705,Xi'an Shiyou University,I181903023,Xi'an,Shaanxi,,Xi’an Shiyou University
+10710,Chang'an University,I25355098,Xi'an,Shaanxi,211 DFC,Chang’an University
+10712,Northwest A&F University,I89652312,Yangling,Shaanxi,985 211 DFC,Northwest A&F University
+10716,Shaanxi University of Chinese Medicine,I75920027,Xianyang,Shaanxi,,Shaanxi University of Chinese Medicine
+10718,Shaanxi Normal University,I88830068,Xi'an,Shaanxi,211 DFC,Shaanxi Normal University
+10724,Xi'an International Studies University,I180632629,Xi'an,Shaanxi,,XI’AN INTERNATIONAL STUDIES UNIVERSITY
+10730,Lanzhou University,I76214153,Lanzhou,Gansu,985 211 DFC,Lanzhou University
+10731,Lanzhou University of Technology,I22716506,Lanzhou,Gansu,,Lanzhou University of Technology
+10732,Lanzhou Jiaotong University,I3133134087,Lanzhou,Gansu,,Lanzhou Jiaotong University
+10736,Northwest Normal University,I68986083,Lanzhou,Gansu,,NORTHWEST NORMAL UNIVERSITY
+10743,Qinghai University,I116265982,Xining,Qinghai,211 DFC,Qinghai University
+10748,Qinghai University for Nationalities,I290007724,Xining,Qinghai,,Qinghai University for Nationalities
+10749,Ningxia University,I21642278,Yinchuan,Ningxia,211 DFC,Ningxia University
+10752,Ningxia Medical University,I4210127460,Yinchuan,Ningxia,,Ningxia Medical University
+10755,Xinjiang University,I96908189,Ürümqi,Xinjiang,211 DFC,XINJIANG UNIVERSITY
+10759,Shihezi University,I102208913,Shihezi,Xinjiang,211 DFC,Shihezi University
+10760,Xinjiang Medical University,I154093214,Ürümqi,Xinjiang,,Xinjiang Medical University
+10762,Xinjiang Normal University,I1334729051,Ürümqi,Xinjiang,,Xinjiang Normal University
+10799,Chongqing Technology and Business University,I145581781,Chongqing,Chongqing,,Chongqing Technology and Business University
+11059,Hefei University,I39774598,Hefei,Anhui,,Hefei University
+11065,Qingdao University,I108688024,Qingdao,Shandong,,Qingdao University
+11066,Yantai University,I18452120,Yantai,Shandong,,Yantai University
+11075,China Three Gorges University,I161350542,Yichang,Hubei,,China Three Georges University
+11117,Yangzhou University,I78978612,Yangzhou,Jiangsu,,Yangzhou University
+11415,China University of Geosciences (Beijing),I3125743391,Beijing,Beijing,,China University of Geosciences (Beijing)
+11646,Ningbo University,I109935558,Ningbo,Zhejiang,DFC,Ningbo University
+11658,Hainan Normal University,I152033890,Haikou,Hainan,,Hainan Normal University
+11835,Shanghai University of Political Science and Law,I112683239,Shanghai,Shanghai,,Shanghai University of Political Science and Law
+11846,Guangdong University of Foreign Studies,I186272606,Guangzhou,Guangdong,,Guangdong University of Foreign Studies
+12121,Southern Medical University,I58200834,Guangzhou,Guangdong,,Southern Medical University
+12923,Wuyi University,I98834328,Wuyishan,Fujian,,Wuyi University
+80001,University of Chinese Academy of Sciences,I4210165038,Beijing,Beijing,DFC,University of the Chinese Academy of Sciences
