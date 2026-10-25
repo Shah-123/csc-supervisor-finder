@@ -117,12 +117,22 @@ def main():
                       "topics": [t for t, _ in p["topics"].most_common(3)],
                       "recent": [[t, y, url] for y, c, t, url in p["papers"][:2]]})
     profs.sort(key=lambda p: -p["papers"])
+    # Paper titles are most of the bytes, so they go in papers.json (same order), which the page loads
+    # after it is already usable. Field and topic names repeat a lot, so professors store list indexes.
+    papers = [p.pop("recent") for p in profs]
+    fields = sorted({f for p in profs for f in p["fields"]})
+    topics = sorted({t for p in profs for t in p["topics"]})
+    fi, ti = {f: i for i, f in enumerate(fields)}, {t: i for i, t in enumerate(topics)}
+    for p in profs:
+        p["fields"] = [fi[f] for f in p["fields"]]
+        p["topics"] = [ti[t] for t in p["topics"]]
     out = {"generated": datetime.date.today().isoformat(), "years": YEARS,
            "universities": [{k: u[k] for k in ("name", "city", "province", "tags", "agency_code")} for u in unis],
-           "professors": profs}
-    with open("professors.json", "w", encoding="utf-8") as f:
-        json.dump(out, f, ensure_ascii=False, separators=(",", ":"))
-    print(f"{len(profs)} supervisors written to professors.json")
+           "fields": fields, "topics": topics, "professors": profs}
+    for path, data in (("professors.json", out), ("papers.json", papers)):
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
+    print(f"{len(profs)} supervisors written to professors.json and papers.json")
 
 
 if __name__ == "__main__":

@@ -105,6 +105,7 @@
   .recent a { color: var(--text); text-decoration: none; }
   .recent a:hover { color: var(--brand); text-decoration: underline; }
   .year { color: var(--muted); white-space: nowrap; }
+  .wait { min-height: 72px; }
   .actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; padding-top: 4px; }
   .btn { display: inline-flex; align-items: center; gap: 8px; min-height: 42px; padding: 9px 16px; border-radius: 10px;
          font-size: 14px; font-weight: 600; text-decoration: none; transition: background .2s, border-color .2s, color .2s; }
@@ -274,8 +275,8 @@ function card(p) {
       <div><b>${fmt(p.cites)}</b><span>citations</span></div></div>
     <div class="chips">${p.fields.map(f => `<span class="chip">${esc(f)}</span>`).join("")}</div>
     <p class="topics">${p.topics.map(esc).join(" · ")}</p>
-    <div class="recent"><p class="label">Latest papers</p><ul>${p.recent.map(([title, year, url]) =>
-      `<li>${ICON.doc}<span><a href="${esc(safeUrl(url))}" target="_blank" rel="noopener">${esc(title || "Untitled")}</a> <span class="year">· ${year}</span></span></li>`).join("")}</ul></div>
+    ${p.recent?.length === 0 ? "" : `<div class="recent"><p class="label">Latest papers</p>${!p.recent ? '<p class="topics wait">Loading…</p>'
+      : `<ul>${p.recent.map(([title, year, url]) => `<li>${ICON.doc}<span><a href="${esc(safeUrl(url))}" target="_blank" rel="noopener">${esc(title || "Untitled")}</a> <span class="year">· ${year}</span></span></li>`).join("")}</ul>`}</div>`}
     <div class="actions">
       <a class="btn primary" href="https://www.google.com/search?q=${q}" target="_blank" rel="noopener">${ICON.mail}Find email</a>
       ${p.orcid ? `<a class="btn ghost" href="${esc(safeUrl(p.orcid))}" target="_blank" rel="noopener">ORCID${ICON.ext}</a>` : ""}
@@ -292,13 +293,16 @@ function more() {
   $("more").textContent = `Show ${Math.min(PAGE, left)} more · ${fmt(left)} left`;
 }
 
-fetch("professors.json").then(r => r.json()).then(d => {
+// no-cache: always revalidate (cheap 304 if unchanged) so a cached old data file never meets a newer page
+fetch("professors.json", {cache: "no-cache"}).then(r => r.json()).then(d => {
   unis = d.universities.map(u => ({...u, tags: u.tags ? u.tags.split(" ") : [], count: 0}));
   profs = d.professors;
   for (const p of profs) {
     const u = unis[p.uni];
     u.count++;
-    p.hay = [p.name, u.name, ...p.fields, ...p.topics, ...p.recent.map(r => r[0])].join(" ").toLowerCase();
+    p.fields = p.fields.map(i => d.fields[i]);
+    p.topics = p.topics.map(i => d.topics[i]);
+    p.hay = [p.name, u.name, ...p.fields, ...p.topics].join(" ").toLowerCase();
   }
   const used = unis.filter(u => u.count);
   fill($("field"), [...new Set(profs.flatMap(p => p.fields))].sort());
@@ -311,6 +315,12 @@ fetch("professors.json").then(r => r.json()).then(d => {
   $("generated").textContent = d.generated;
   $("list").removeAttribute("aria-busy");
   apply();
+  // paper titles are most of the data, so they arrive second, in the same order as professors
+  return fetch("papers.json", {cache: "no-cache"}).then(r => r.json()).then(papers => profs.forEach((p, i) => {
+    p.recent = papers[i] || [];
+    p.hay += " " + p.recent.map(r => r[0]).join(" ").toLowerCase();
+  }), () => profs.forEach(p => p.recent = []))
+    .then(() => $("q").value.trim() ? apply() : results.length && ($("list").innerHTML = results.slice(0, shown).map(card).join("")));
 }).catch(() => { $("count").textContent = "Could not load the supervisor list. Please refresh the page."; });
 
 let timer;
